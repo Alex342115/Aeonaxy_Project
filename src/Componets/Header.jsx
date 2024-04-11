@@ -1,20 +1,34 @@
 import React from "react";
 import logo from "../Assests/paypal.svg";
+import hamBurger from "../Assests/hamburger.svg";
+import cross from "../Assests/cross.svg";
+
 import "../App.css";
 export default function Header() {
+  const [navVisible, setNavVisible] = React.useState(false);
+  const handleToggle = () => {
+    console.log("clicked");
+    setNavVisible(!navVisible);
+  };
+
   return (
     <header className="header  bg-white flex justify-between items-start px-5 fixed top-0 w-full ">
       <img src={logo} alt="logo" className="comp-logo" />
       <button
-        className=" mobile-nav-togg le md:hidden border-2 border-red-600"
+        className="mobile-nav-toggle absolute z-50 top-5 right-7 md:hidden"
         aria-controls="primary-navbar"
         aria-expanded="false"
+        onClick={handleToggle}
       >
-        <span className="sr-only">Menu</span>
+        <span>
+          <img src={hamBurger} alt="hamBurger" className="w-8" />
+        </span>
       </button>
       <div className="search-bar">Search </div>
       <nav
-        className="primary-navbar flex flex-col justify-start items-center gap-8 fixed bg-white/95  left-1/4 inset-0"
+        className={`primary-navbar flex flex-col justify-start items-center gap-8 fixed bg-white/50 backdrop-blur-2xl left-1/4 inset-0 translate-x-full transition-transform duration-500 ${
+          navVisible ? "translate-x-0 transition-transform duration-500" : ""
+        } `}
         data-visible="false"
       >
         <ul

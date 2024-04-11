@@ -136,7 +136,7 @@ export default function Docs() {
         <img
           src={TranscationLogo}
           alt="TranscationLogo"
-          className="w-64 mix-blend-multiply text-center"
+          className="w-64 text-center"
         />
       </div>
 
