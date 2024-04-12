@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../Assests/paypal.svg";
 import hamBurger from "../Assests/hamburger.svg";
 import cross from "../Assests/cross.svg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [navVisible, setNavVisible] = React.useState(false);
@@ -61,24 +62,16 @@ export default function Header() {
         lg:flex-row lg:m-0 lg:p-0 lg:w-2/3 lg:justify-center lg:items-center lg:text-lg"
         >
           <li className="nav-links ">
-            <a href="#">
-              <span>Docs</span>
-            </a>
+            <Link to="/#docs">Docs</Link>
           </li>
           <li className="nav-links ">
-            <a href="#">
-              <span>APIs & SDKs</span>
-            </a>
+            <Link to="/#api">APIs & SDKs</Link>
           </li>
           <li className="nav-links ">
-            <a href="#">
-              <span>Tools</span>
-            </a>
+            <Link to="/#tools">Tools</Link>
           </li>
           <li className="nav-links ">
-            <a href="#">
-              <span>Support</span>
-            </a>
+            <Link to="/#support">Support</Link>
           </li>
         </ul>
         <button

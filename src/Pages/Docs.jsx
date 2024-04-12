@@ -4,7 +4,7 @@ import TranscationLogo from "../Assests/smallpayment.svg";
 
 export default function Docs() {
   return (
-    <div className="pt-16 ">
+    <div id="docs" className="pt-16 ">
       <div className="docs-top flex flex-col gap-6 bg-blue-950 px-10 py-8 lg:min-h-96 lg:gap-10 lg:px-60 lg:py-12 ">
         <h3 className="title text-white/75 font-light text-base lg:text-3xl lg:text-white/65 ">
           PayPal Developer
@@ -70,22 +70,22 @@ export default function Docs() {
           </p>
           <ul className="flex flex-wrap gap-4 lg:flex-col lg:gap-3">
             <li>
-              <a href="#" className="text-blue-700 font-semibold lg:text-lg">
+              <a href="#docs" className="text-blue-700 font-semibold lg:text-lg">
                 Checkout
               </a>
             </li>
             <li>
-              <a href="#" className="text-blue-700 font-semibold lg:text-lg">
+              <a href="#docs" className="text-blue-700 font-semibold lg:text-lg">
                 Subsciptions
               </a>
             </li>
             <li>
-              <a href="#" className="text-blue-700 font-semibold lg:text-lg">
+              <a href="#docs" className="text-blue-700 font-semibold lg:text-lg">
                 Invoicing
               </a>
             </li>
             <li>
-              <a href="#" className="text-blue-700 font-semibold lg:text-lg">
+              <a href="#docs" className="text-blue-700 font-semibold lg:text-lg">
                 Donate
               </a>
             </li>
@@ -116,7 +116,7 @@ export default function Docs() {
           <ul className="flex flex-wrap gap-4 lg:flex-col lg:gap-3">
             <li>
               {" "}
-              <a href="#" className="text-blue-700 font-semibold lg:text-lg">
+              <a href="#docs" className="text-blue-700 font-semibold lg:text-lg">
                 Point of Sale Solutions
               </a>
             </li>
@@ -143,7 +143,7 @@ export default function Docs() {
           </p>
           <ul className="flex flex-wrap gap-4 lg:flex-col lg:gap-3">
             <li>
-              <a href="#" className="text-blue-700 font-semibold lg:text-lg">
+              <a href="#docsdocs" className="text-blue-700 font-semibold lg:text-lg">
                 Build a Marketplace
               </a>
             </li>
@@ -172,12 +172,12 @@ export default function Docs() {
           </p>
           <ul className="flex flex-wrap gap-5 lg:flex-col lg:gap-3">
             <li>
-              <a href="#" className="text-blue-700 font-semibold lg:text-lg">
+              <a href="#docs" className="text-blue-700 font-semibold lg:text-lg">
                 Partners
               </a>
             </li>
             <li>
-              <a href="#" className="text-blue-700 font-semibold lg:text-lg">
+              <a href="#docs" className="text-blue-700 font-semibold lg:text-lg">
                 Plugins
               </a>
             </li>
@@ -195,7 +195,7 @@ export default function Docs() {
             Code a soultion tro sent mass payments to contract
             workers,claimant,freelancers, and sellers around the world.
           </p>
-          <a href="#" className="text-blue-700 font-semibold lg:text-xl">
+          <a href="#docs" className="text-blue-700 font-semibold lg:text-xl">
             Get started
           </a>
         </div>
@@ -232,7 +232,7 @@ export default function Docs() {
               Automate oyur dispute managemnet, from initial claim to final
               resolution
             </p>
-            <a href="#" className="text-blue-700 font-semibold lg:text-xl">
+            <a href="#docs" className="text-blue-700 font-semibold lg:text-xl">
               Get started
             </a>
           </div>
@@ -256,7 +256,7 @@ export default function Docs() {
               Get transaction level insights to help manage your day-to-day
               operations
             </p>
-            <a href="#" className="text-blue-700 font-semibold lg:text-xl">
+            <a href="#docs" className="text-blue-700 font-semibold lg:text-xl">
               Get started
             </a>
           </div>
@@ -283,7 +283,7 @@ export default function Docs() {
               Let your customers log in to your website using their PayPal
               credentials
             </p>
-            <a href="#" className="text-blue-700 font-semibold lg:text-xl">
+            <a href="#docs" className="text-blue-700 font-semibold lg:text-xl">
               Get started
             </a>
           </div>

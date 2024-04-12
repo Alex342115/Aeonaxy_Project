@@ -3,7 +3,10 @@ import logo from "../Assests/payment2.svg";
 
 export default function Support() {
   return (
-    <div className="support px-10 flex flex-col gap-3 py-5 lg:px-60 lg:flex-row">
+    <div
+      id="support"
+      className=" px-10 flex flex-col gap-3 py-5 lg:px-60 lg:flex-row"
+    >
       <div className="flex flex-col  gap-3 lg:gap-5">
         {" "}
         <h1 className="text-3xl lg:text-4xl">Looking for something else?</h1>
@@ -17,7 +20,7 @@ export default function Support() {
         <ul className="flex justify-between lg:justify-normal lg:gap-16">
           <li>
             <a
-              href="#"
+              href="#support"
               className="font-semibold text-sm lg:font-semibold lg:text-xl"
             >
               FAQs
@@ -25,7 +28,7 @@ export default function Support() {
           </li>
           <li>
             <a
-              href="#"
+              href="#support"
               className="font-semibold text-sm lg:font-semibold lg:text-xl"
             >
               Community
@@ -33,7 +36,7 @@ export default function Support() {
           </li>
           <li>
             <a
-              href="#"
+              href="#support"
               className="font-semibold text-sm lg:font-semibold lg:text-xl"
             >
               Blog
@@ -41,7 +44,7 @@ export default function Support() {
           </li>
           <li>
             <a
-              href="#"
+              href="#support"
               className="font-semibold text-sm lg:font-semibold lg:text-xl"
             >
               Docs Archive

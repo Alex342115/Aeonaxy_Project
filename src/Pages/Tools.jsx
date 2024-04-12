@@ -1,10 +1,12 @@
 import React from "react";
 import sofaLogo from "../Assests/developeronsofa.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Tools() {
   return (
-    <div className="tools flex flex-col gap-2 w-full px-10 pt-5 pb-10 bg-orange-100/85 lg:flex-row lg:px-60 lg:gap-24">
+    <div
+      id="tools"
+      className="flex flex-col gap-2 w-full px-10 pt-5 pb-10 bg-orange-100/85 lg:flex-row lg:px-60 lg:gap-24"
+    >
       <div>
         <h1 className="text-3xl lg:text-5xl">Developer Tools & Resources</h1>
         <img
@@ -34,7 +36,7 @@ export default function Tools() {
               Explore PayPal product experiences from the customer's perspective
             </p>
             <a
-              href="#"
+              href="#tools"
               className="text-blue-700 font-semibold text-[0.9rem] lg:text-xl lg:font-medium"
             >
               View Demos
@@ -66,7 +68,7 @@ export default function Tools() {
               languages.
             </p>
             <a
-              href="#"
+              href="#tools"
               className="text-blue-700 font-semibold text-[0.9rem] lg:text-xl lg:font-medium"
             >
               Try APIs
@@ -94,7 +96,7 @@ export default function Tools() {
               PayPal Sandbox.
             </p>
             <a
-              href="#"
+              href="#tools"
               className="text-blue-700 font-semibold text-[0.9rem] lg:text-xl lg:font-medium"
             >
               Learn More

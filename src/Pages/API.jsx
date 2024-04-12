@@ -5,7 +5,7 @@ import whLogo from "../Assests/WH.jpg";
 
 export default function API() {
   return (
-    <div className="flex flex-col gap-9 w-full px-10 pt-5 pb-10 bg-neutral-100 lg:px-60">
+    <div id="api" className="flex flex-col gap-9 w-full px-10 pt-5 pb-10 bg-neutral-100 lg:px-60">
       <h1 className="text-[2rem] lg:text-5xl">Explore our APIs & SDKs</h1>
       <div className="flex flex-col gap-4 lg:flex-row lg:px-10 lg:gap-14 lg:pt-5">
         <div className="api-card flex flex-col drop-shadow-xl items-center bg-white/85  rounded-3xl lg:w-1/3">
@@ -26,7 +26,7 @@ export default function API() {
             <ul className="flex flex-col gap-1 lg:gap-4">
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   REST APIs
@@ -34,7 +34,7 @@ export default function API() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   NVP/SOAP APIs
@@ -42,7 +42,7 @@ export default function API() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   Brainttree GraphQL API
@@ -69,7 +69,7 @@ export default function API() {
             <ul className="flex flex-col gap-1 lg:gap-4">
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   JavaScript SDK
@@ -77,7 +77,7 @@ export default function API() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   Donate SDK
@@ -85,7 +85,7 @@ export default function API() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   Braintree SDKs
@@ -115,7 +115,7 @@ export default function API() {
             <ul className="flex flex-col gap-1 lg:gap-4">
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   Webhooks
@@ -123,7 +123,7 @@ export default function API() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   Instant Payment Notifications(IPN)
@@ -131,7 +131,7 @@ export default function API() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#api"
                   className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
                 >
                   Payment Data Transfer(PDT)
@@ -174,7 +174,7 @@ export default function API() {
         <p className="text-sm lg:text-lg">
           To browse PayPal SDKs, see our GitHub Library
           <span className="text-blue-500 px-4 lg:px-6">
-            <a href="#" className="text-blue-500">
+            <a href="#api" className="text-blue-500">
               Learn more
             </a>
           </span>
