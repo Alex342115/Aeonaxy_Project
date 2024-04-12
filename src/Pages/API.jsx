@@ -7,8 +7,8 @@ export default function API() {
   return (
     <div className="flex flex-col gap-9 w-full px-10 pt-5 pb-10 bg-neutral-100 lg:px-60">
       <h1 className="text-[2rem] lg:text-5xl">Explore our APIs & SDKs</h1>
-      <div className="flex flex-col lg:flex-row lg:px-10 lg:gap-14 lg:pt-5">
-        <div className="api-card flex flex-col items-center bg-white/85  rounded-3xl lg:w-1/3">
+      <div className="flex flex-col gap-4 lg:flex-row lg:px-10 lg:gap-14 lg:pt-5">
+        <div className="api-card flex flex-col drop-shadow-xl items-center bg-white/85  rounded-3xl lg:w-1/3">
           <div className="bg-emerald-100 w-full h-1/4 flex items-center justify-center rounded-t-3xl lg:py-5">
             {" "}
             <img
@@ -51,7 +51,7 @@ export default function API() {
             </ul>
           </div>
         </div>
-        <div className="sdk-card flex flex-col items-center bg-white/85 rounded-3xl lg:w-1/3">
+        <div className="sdk-card flex flex-col items-center drop-shadow-xl bg-white/85 rounded-3xl lg:w-1/3">
           <div className="bg-emerald-100 w-full h-1/4 flex items-center justify-center rounded-t-3xl lg:py-5">
             {" "}
             <img
@@ -94,7 +94,7 @@ export default function API() {
             </ul>
           </div>
         </div>
-        <div className="event-card flex flex-col items-center bg-white/85  rounded-3xl lg:w-1/3">
+        <div className="event-card flex flex-col items-center drop-shadow-xl bg-white/85  rounded-3xl lg:w-1/3">
           <div className="bg-emerald-100 w-full h-1/4 flex items-center justify-center rounded-t-3xl lg:py-5">
             {" "}
             <img
@@ -142,9 +142,9 @@ export default function API() {
         </div>
       </div>
 
-      <div className="w-full bg-white/85 rounded-full p-4">
+      <div className="w-full bg-white/85 rounded-full p-4 drop-shadow-xl">
         {" "}
-        <p className="text-sm">
+        <p className="text-sm lg:text-lg">
           To browse PayPal SDKs, see our GitHub Library
           <span className="text-blue-500 px-4">
             <a href="#" className="text-blue-500">

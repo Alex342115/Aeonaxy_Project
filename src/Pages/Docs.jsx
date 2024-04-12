@@ -47,7 +47,7 @@ export default function Docs() {
         <img
           src={PayementLogo}
           alt="PayementLogo"
-          className="w-64 lg:col-start-3 lg:row-span-full lg:w-5/6 lg:place-self-center"
+          className="w-64 lg:col-start-3 lg:row-span-full lg:w-5/6 place-self-center"
         />
         <div className="flex flex-col gap-2 lg:row-start-2">
           <h3 className="text-[1.5rem] pt-2 lg:text-3xl">Online</h3>
