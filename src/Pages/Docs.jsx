@@ -24,21 +24,41 @@ export default function Docs() {
           Get API Credentials
         </button>
       </div>
-      {/* <div className="new-feature">
-        <button className="text-extrabold rounded-full bg-yellow-500 text-blue-950 text-sm p-2">
-          <FontAwesomeIcon
-            icon="fa-solid fa-clock"
-            className="border-2 border-red-950"
-          />
-          Now
-        </button>
-        <p>
+      <div
+        className=" new-feature relative border-2 bg-neutral-100 rounded-full flex items-center gap-3 
+        my-4 mx-10 p-2 md:mx-16 lg:gap-5 lg:mx-64 "
+      >
+        <div className="flex gap-1 items-center bg-violet-200 rounded-full h-full p-2">
+          <svg
+            className="w-4 md:w-6 lg:w-8"
+            fill="#7F00FF"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 
+            7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"
+            />
+          </svg>
+          <p className="text-xs md:text-lg">New</p>
+        </div>
+        <p className="text-xs md:text-lg">
           Explore out Checkout code with the interactive Intergration Builder.
+          <span>
+            <a className="text-blue-500" href="#api">
+              {" "}
+               Try it now
+            </a>
+          </span>
         </p>
-        <span>
-          <a href="#"> Try it now</a>{" "}
-        </span>
-      </div> */}
+        <button
+          type="button"
+          class="feedback absolute -right-[4.5rem] py-0.5 px-2 bg-blue-200 text-xs font-bold -rotate-90 rounded
+         md:text-sm md:-right-24 lg:-right-72"
+        >
+          Feedback
+        </button>
+      </div>
       <div className="flex flex-col justify-center items-center gap-3 px-10 py-4 md:flex-row  md:px-20 lg:px-60">
         <div className=" pb-5 md:w-2/3">
           <h1 className="text-3xl py-5 lg:text-5xl">Accept Payments</h1>
