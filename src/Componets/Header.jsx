@@ -57,7 +57,7 @@ export default function Header() {
       </button>
       <nav
         className={`primary-navbar flex flex-col justify-start items-center gap-8
-         bg-white/50 backdrop-blur-2xl fixed top-0 right-0 h-full w-3/4  transition-transform duration-500 ${
+         bg-white/50 backdrop-blur-2xl fixed top-0 right-0 h-screen w-3/4  transition-transform duration-500 ${
            navVisible ? "translate-x-0" : "translate-x-full"
          } lg:translate-x-0 lg:flex-row lg:static lg:w-1/2 lg:items-center lg:my-[auto]`}
       >
