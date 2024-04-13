@@ -174,7 +174,7 @@ export default function API() {
             2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
           />
         </svg>{" "}
-        <p className="text-sm md:text-base lg:text-lg">
+        <p className="text-sm md:text-base lg:text-xl">
           To browse PayPal SDKs, see our GitHub Library
           <span className="text-blue-500 px-4 lg:px-6">
             <a href="https://github.com/Alex342115" className="text-blue-500">
