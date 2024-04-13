@@ -14,9 +14,13 @@ export default function Header() {
   return (
     <header
       className="header bg-white flex z-10 items-start px-5 lg:drop-shadow-2xl fixed top-0 
-    w-full lg:px-40 "
+    w-full md:px-18 lg:px-40 "
     >
-      <div className="w-2/3 flex items-center justify-around lg:w-1/2 lg:justify-normal lg:gap-24">
+      <div
+        className="w-2/3 flex items-center justify-around 
+      md:justify-start md:px-5 md:gap-28
+      lg:w-1/2 lg:justify-normal lg:gap-24"
+      >
         <img
           src={logo}
           alt="logo"
@@ -40,7 +44,7 @@ export default function Header() {
       </div>
       <button
         type="button"
-        className="mobile-nav-toggle absolute z-50 top-4 right-7 md:hidden"
+        className="mobile-nav-toggle absolute z-50 top-4 right-7 lg:hidden"
         onClick={handleToggle}
       >
         <span>

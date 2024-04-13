@@ -18,7 +18,6 @@ const ScrollToHashElement = () => {
         element.scrollIntoView({
           top:100,
           behavior: "smooth",
-          alignTop: false,
           block: "start",
           inline: "nearest",
         });

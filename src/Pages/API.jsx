@@ -5,21 +5,24 @@ import whLogo from "../Assests/WH.jpg";
 
 export default function API() {
   return (
-    <div id="api" className="flex flex-col gap-9 w-full px-10 pt-5 pb-10 bg-neutral-100 lg:px-60">
+    <div
+      id="api"
+      className="flex flex-col gap-9 w-full px-10 pt-5 pb-10 bg-neutral-100 md:px-24 lg:px-60"
+    >
       <h1 className="text-[2rem] lg:text-5xl">Explore our APIs & SDKs</h1>
-      <div className="flex flex-col gap-4 lg:flex-row lg:px-10 lg:gap-14 lg:pt-5">
+      <div className="flex flex-col gap-4 md:px-16 md:gap-8 lg:flex-row lg:px-10 lg:gap-14 lg:pt-5">
         <div className="api-card flex flex-col drop-shadow-xl items-center bg-white/85  rounded-3xl lg:w-1/3">
           <div className="bg-emerald-100 w-full h-1/4 flex items-center justify-center rounded-t-3xl lg:py-5">
             {" "}
             <img
               src={apiLogo}
               alt="API"
-              className="w-14 mix-blend-multiply py-4 lg:w-16"
+              className="w-14 mix-blend-multiply py-4 md:w-16"
             />
           </div>
-          <div className="h-4/6 px-5 pb-4">
+          <div className="h-4/6 px-5 pb-4 md:pb-6">
             {" "}
-            <h3 className="text-2xl py-2 lg:text-3xl lg:py-5">APIs</h3>
+            <h3 className="text-2xl py-2 md:py-3 lg:text-3xl lg:py-5">APIs</h3>
             <p className="text-black/70 pb-2 lg:text-lg lg:pb-3">
               PayPal offers APIs for new and legacy intergrations
             </p>
@@ -27,7 +30,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base"
                 >
                   REST APIs
                 </a>
@@ -35,7 +38,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base"
                 >
                   NVP/SOAP APIs
                 </a>
@@ -43,7 +46,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base"
                 >
                   Brainttree GraphQL API
                 </a>
@@ -57,20 +60,20 @@ export default function API() {
             <img
               src={sdkLogo}
               alt="SDK"
-              className="w-14 mix-blend-multiply py-4 lg:w-16 "
+              className="w-14 mix-blend-multiply py-4 md:w-16 "
             />
           </div>
-          <div className="h-4/6 px-5 pb-4">
+          <div className="h-4/6 px-5 pb-4 md:mb-3">
             {" "}
-            <h3 className="text-2xl py-2 lg:text-3xl lg:py-5">SDKs</h3>
-            <p className="text-black/70 pb-2 lg:text-lg lg:pb-3">
+            <h3 className="text-2xl py-2 md:py-3 lg:py-5 lg:text-3xl">SDKs</h3>
+            <p className="text-black/70 pb-2  lg:text-lg lg:pb-3">
               Try our SDKs to stremline the intergration experience.
             </p>
             <ul className="flex flex-col gap-1 lg:gap-4">
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   JavaScript SDK
                 </a>
@@ -78,7 +81,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   Donate SDK
                 </a>
@@ -86,7 +89,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   Braintree SDKs
                 </a>
@@ -100,12 +103,12 @@ export default function API() {
             <img
               src={whLogo}
               alt="EVENTS"
-              className="w-14 py-4 mix-blend-multiply lg:w-16"
+              className="w-14 py-4 mix-blend-multiply md:w-16"
             />
           </div>
-          <div className="h-4/6 px-5 pb-4">
+          <div className="h-4/6 px-5 pb-4 md:pb-6">
             {" "}
-            <h3 className="text-2xl py-2 lg:text-3xl lg:py-5">
+            <h3 className="text-2xl py-2  md:py-3 lg:text-3xl lg:py-5">
               Event Notifications
             </h3>
             <p className="text-black/70 pb-2 lg:text-lg lg:pb-3">
@@ -116,7 +119,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   Webhooks
                 </a>
@@ -124,7 +127,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   Instant Payment Notifications(IPN)
                 </a>
@@ -132,7 +135,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] lg:text-lg"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   Payment Data Transfer(PDT)
                 </a>
@@ -144,11 +147,11 @@ export default function API() {
 
       <div
         className="w-full flex justify-center items-center gap-2 bg-white/85  rounded-full 
-      p-4 drop-shadow-xl lg:justify-start lg:gap-6"
+      p-4 drop-shadow-xl md:justify-start lg:gap-6"
       >
         {" "}
         <svg
-          className="w-14 lg:w-10"
+          className="w-14 md:w-9 lg:w-10"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 496 512"
         >
@@ -171,10 +174,10 @@ export default function API() {
             2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
           />
         </svg>{" "}
-        <p className="text-sm lg:text-lg">
+        <p className="text-sm md:text-base lg:text-lg">
           To browse PayPal SDKs, see our GitHub Library
           <span className="text-blue-500 px-4 lg:px-6">
-            <a href="#api" className="text-blue-500">
+            <a href="https://github.com/Alex342115" className="text-blue-500">
               Learn more
             </a>
           </span>
