@@ -30,7 +30,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   REST APIs
                 </a>
@@ -38,7 +38,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   NVP/SOAP APIs
                 </a>
@@ -46,7 +46,7 @@ export default function API() {
               <li>
                 <a
                   href="#api"
-                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base"
+                  className="text-blue-700 font-semibold text-[0.9rem] md:text-base lg:text-lg"
                 >
                   Brainttree GraphQL API
                 </a>
@@ -103,7 +103,7 @@ export default function API() {
             <img
               src={whLogo}
               alt="EVENTS"
-              className="w-14 py-4 mix-blend-multiply md:w-16"
+              className="w-14 mix-blend-multiply py-4 md:w-16"
             />
           </div>
           <div className="h-4/6 px-5 pb-4 md:pb-6">
